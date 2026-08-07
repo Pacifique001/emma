@@ -517,6 +517,5 @@ buildCandleGroup();
 observeReveal();
 prepareWishAnimation();
 primeSparkles();
-revealExperience();
 heroSequence();
 wireEvents();
