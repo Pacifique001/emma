@@ -145,11 +145,15 @@ a {
 .hero__title {
   margin: 0;
   display: grid;
-  gap: 0.55rem;
   font-size: clamp(2.35rem, 6vw, 5.7rem);
   line-height: 0.96;
   letter-spacing: -0.04em;
   text-wrap: balance;
+}
+
+/* stack all three lines in one grid cell so faded ones don't take space */
+.hero__title .hero-line {
+  grid-area: 1 / 1;
 }
 
 .hero-line {
@@ -881,9 +885,11 @@ a {
   }
 
   .story__card {
-    grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
-    align-items: center;
-  }
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  align-items: center;
+}
+
+
 
   .story__text:first-child {
     grid-column: 1 / -1;
