@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark" />
+  <title>For Someone Who Means The World to Me ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Replace the values in main.js to personalize the page: name, your name, memories, photos, and music. -->
+  <div class="bg-orb bg-orb-one" aria-hidden="true"></div>
+  <div class="bg-orb bg-orb-two" aria-hidden="true"></div>
+  <div class="bg-orb bg-orb-three" aria-hidden="true"></div>
+
+  <div class="spark-layer" id="spark-layer" aria-hidden="true"></div>
+  <div class="particle-layer" id="particle-layer" aria-hidden="true"></div>
+
+  <header class="hero" id="hero">
+    <div class="hero__veil"></div>
+    <div class="hero__inner">
+      <p class="eyebrow reveal">For someone who means the world to me</p>
+      <h1 class="hero__title" id="hero-title">
+        <span class="hero-line hero-line--current" id="hero-line-1">Today isn't just another day...</span>
+        <span class="hero-line hero-line--next" id="hero-line-2">Today is the day someone incredibly special was born. ❤️</span>
+        <span class="hero-line hero-line--final" id="hero-line-3">Happy Birthday, Emma 🎂❤️</span>
+      </h1>
+      <p class="hero__subcopy reveal" id="hero-subcopy">A private birthday world made just for her.</p>
+      <div class="hero__actions reveal">
+        <button class="button button--primary" id="start-button" type="button">Open Your Birthday Surprise ✨</button>
+        <button class="button button--ghost" id="music-toggle" type="button" aria-pressed="false">Start Music</button>
+      </div>
+      <p class="hero__hint reveal">Scroll slowly. Every moment was made to feel like a gift.</p>
+    </div>
+    <button class="secret-heart" id="secret-heart" type="button" aria-label="Open the secret message">♥</button>
+  </header>
+
+  <main class="experience" id="experience">
+    <section class="section story section--wide reveal-on-scroll" id="story">
+      <div class="section__header">
+        <p class="section__label">A little letter</p>
+        <h2>There are people you meet… and then there are people who become unforgettable.</h2>
+      </div>
+      <div class="story__card glass-panel">
+        <p class="story__text" id="story-text">
+          Emma, this page is my quiet way of saying what ordinary words struggle to hold.
+          You are not a passing part of my life. You are one of the people who make it softer,
+          brighter, and far more meaningful.
+        </p>
+        <p class="story__text">
+          I keep thinking about <span class="accent" id="special-memory">the little moments that stay in my heart.</span>
+          I keep noticing how <span class="accent" id="what-i-love">your presence makes everything feel easier to love.</span>
+          And I keep hoping you never doubt how deeply you are valued.
+        </p>
+        <p class="story__quote" id="special-message">
+          You matter in a way that is calm, lasting, and impossible to replace.
+        </p>
+        <p class="story__signature">With all my heart, <span id="signature-name">Pacifique </span> ❤️</p>
+      </div>
+    </section>
+
+    <section class="section reveal-on-scroll" id="why-special">
+      <div class="section__header">
+        <p class="section__label">Why you feel unforgettable</p>
+        <h2>Why You Are Special</h2>
+      </div>
+      <div class="card-grid">
+        <article class="feature-card glass-panel stagger-item">
+          <div class="feature-card__icon">❤️</div>
+          <h3>Your Heart</h3>
+          <p>Your kindness makes the world around you feel a little warmer.</p>
+        </article>
+        <article class="feature-card glass-panel stagger-item">
+          <div class="feature-card__icon">✨</div>
+          <h3>Your Presence</h3>
+          <p>Some people make a place brighter simply by being there. You are one of those people.</p>
+        </article>
+        <article class="feature-card glass-panel stagger-item">
+          <div class="feature-card__icon">🌹</div>
+          <h3>Your Smile</h3>
+          <p>A simple smile from you can become a memory someone carries for a long time.</p>
+        </article>
+        <article class="feature-card glass-panel stagger-item">
+          <div class="feature-card__icon">💫</div>
+          <h3>Your Soul</h3>
+          <p>There is something about you that cannot be explained — only appreciated.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal-on-scroll" id="memories">
+      <div class="section__header">
+        <p class="section__label">A few moments I never want to forget</p>
+        <h2>A Few Moments I Never Want to Forget 📸</h2>
+      </div>
+      <div class="gallery-grid" id="gallery-grid" aria-label="Photo gallery"></div>
+    </section>
+
+    <section class="section reveal-on-scroll" id="wishes">
+      <div class="section__header">
+        <p class="section__label">Quiet hopes for a beautiful year</p>
+        <h2>My Birthday Wishes For You 🌟</h2>
+      </div>
+      <div class="wish-list" id="wish-list" aria-live="polite"></div>
+    </section>
+
+    <section class="section centerpiece reveal-on-scroll" id="centerpiece">
+      <div class="centerpiece__glow" aria-hidden="true"></div>
+      <div class="section__header section__header--center">
+        <p class="section__label">If I could give you one thing today</p>
+        <h2>If I could give you one thing today…</h2>
+      </div>
+      <div class="centerpiece__stack">
+        <p class="centerpiece__line">I would give you the ability to see yourself through the eyes of the people who love you.</p>
+        <p class="centerpiece__line">Because maybe then you would understand just how incredibly special you are. ❤️</p>
+        <p class="centerpiece__line">And I hope you know that I am one of those people.</p>
+      </div>
+    </section>
+
+    <section class="section reveal-on-scroll" id="cake-section">
+      <div class="section__header">
+        <p class="section__label">A wish, a candle, a moment</p>
+        <h2>Birthday Cake Interaction 🎂</h2>
+      </div>
+      <div class="cake-wrap glass-panel">
+        <button class="cake" id="cake" type="button" aria-label="Interact with the birthday cake">
+          <div class="cake__candles" id="cake-candles" aria-hidden="true"></div>
+          <div class="cake__top"></div>
+          <div class="cake__body"></div>
+          <div class="cake__plate"></div>
+        </button>
+        <div class="cake-copy">
+          <p class="cake-copy__title" id="cake-title">Tap the cake to light the candles.</p>
+          <p class="cake-copy__subtitle" id="cake-subtitle">Then tap again to blow them out and let the celebration bloom.</p>
+        </div>
+      </div>
+      <div class="wish-reveal glass-panel" id="wish-reveal" hidden>
+        <p class="wish-reveal__title">Make a wish… ✨</p>
+        <p class="wish-reveal__subtitle">May this year be your most beautiful chapter yet.</p>
+      </div>
+    </section>
+
+    <section class="section reveal-on-scroll" id="secret-letter-section">
+      <div class="section__header">
+        <p class="section__label">Something I needed to say softly</p>
+        <h2>Secret Message</h2>
+      </div>
+      <div class="secret-cta glass-panel">
+        <p>This is the part meant to feel like a sealed letter.</p>
+        <button class="button button--primary" id="open-letter" type="button">There is one more thing I want to tell you… 💌</button>
+      </div>
+    </section>
+
+    <section class="section finale reveal-on-scroll" id="finale">
+      <div class="finale__content">
+        <p class="section__label">The ending of the story</p>
+        <h2>Happy Birthday, Emma ❤️</h2>
+        <p class="finale__subtitle">May your story become even more beautiful from here.</p>
+        <p class="finale__subtitle">With all my heart…</p>
+        <p class="finale__signature" id="final-signature">Pacifique  ❤️</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="gallery-modal" aria-hidden="true" role="dialog" aria-label="Memories viewer">
+    <button class="modal__backdrop" data-close-modal type="button" aria-label="Close memory viewer backdrop"></button>
+    <div class="modal__panel">
+      <button class="modal__close" data-close-modal type="button" aria-label="Close memory viewer">×</button>
+      <img id="modal-image" alt="Selected memory" />
+      <p id="modal-caption"></p>
+    </div>
+  </div>
+
+  <div class="modal" id="letter-modal" aria-hidden="true" role="dialog" aria-label="Birthday letter">
+    <button class="modal__backdrop" data-close-letter type="button" aria-label="Close birthday letter backdrop"></button>
+    <div class="modal__panel modal__panel--letter">
+      <button class="modal__close" data-close-letter type="button" aria-label="Close birthday letter">×</button>
+      <div class="letter-shell">
+        <p class="letter-shell__label">A letter just for Emma</p>
+        <h3>Happy Birthday to someone I care about more than I can properly put into words.</h3>
+        <div class="letter-text" id="letter-text" aria-live="polite"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="secret-modal" aria-hidden="true" role="dialog" aria-label="Secret message">
+    <button class="modal__backdrop" data-close-secret type="button" aria-label="Close secret message backdrop"></button>
+    <div class="modal__panel modal__panel--secret">
+      <button class="modal__close" data-close-secret type="button" aria-label="Close secret message">×</button>
+      <p class="secret-modal__eyebrow">You found the secret. 🤫❤️</p>
+      <h3>I could have written a thousand words, but they still wouldn't be enough to explain how much you mean to me.</h3>
+    </div>
+  </div>
+
+  <template id="wish-template">
+    <article class="wish-item glass-panel">
+      <span class="wish-item__number"></span>
+      <p class="wish-item__text"></p>
+    </article>
+  </template>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
